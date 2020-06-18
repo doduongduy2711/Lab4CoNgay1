@@ -27,5 +27,6 @@ namespace duongduy_lab456.ViewModels
             return DateTime.Parse(string.Format("{0} {1}", Date, Time));
         }
 
+
     }
 }
