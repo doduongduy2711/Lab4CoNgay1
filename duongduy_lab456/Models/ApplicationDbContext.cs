@@ -22,6 +22,7 @@ namespace duongduy_lab456.Models
         {
             return new ApplicationDbContext();
         }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Attendance>()
