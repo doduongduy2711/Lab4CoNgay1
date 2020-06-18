@@ -18,6 +18,7 @@ namespace duongduy_lab456.Models
         {
         }
 
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
